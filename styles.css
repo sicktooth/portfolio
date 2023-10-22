@@ -173,24 +173,24 @@ a {
    font-size: 1.7rem;
   }
  .top-container__img3 {
-   width: 60%;
+   width: 45%;
  }
  .top-cloud {
    position:static;
-   margin-right: 50%;
+   margin-right: 40%;
  }
  .bottom-cloud {
    position:static;
-   margin-left: 50%;
+   margin-left: 40%;
  }
  .middle-container {
   padding: 10%;
  }
  .description {
-  width: 100%;
+  width: 90%;
  }
  .skill-row {
-  width: 100%;
+  width: 90%;
  }
  .bottom-container {
   padding:7% 1%

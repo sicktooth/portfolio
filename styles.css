@@ -177,20 +177,20 @@ a {
  }
  .top-cloud {
    position:static;
-   margin-right: 40%;
+   margin-right: 50%;
  }
  .bottom-cloud {
    position:static;
-   margin-left: 40%;
+   margin-left: 50%;
  }
  .middle-container {
   padding: 10%;
  }
  .description {
-  width: 90%;
+  width: 100%;
  }
  .skill-row {
-  width: 90%;
+  width: 100%;
  }
  .bottom-container {
   padding:7% 1%

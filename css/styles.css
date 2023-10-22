@@ -27,6 +27,10 @@ h3 {
   font-size: 16px;
 }
 
+.container__heading {
+  font-size: 2rem;
+}
+
 hr {
   border-style: dotted none none;
   width: 5%;
@@ -157,4 +161,38 @@ a {
 
 .footer-link:hover {
   color: #EAF6F6;
+}
+
+/* MEDIA QUERRIES */
+
+@media (max-width:480px) {
+  h1 {
+   font-size: 4rem;
+ }
+ h2 {
+   font-size: 1.7rem;
+  }
+ .top-container__img3 {
+   width: 60%;
+ }
+ .top-cloud {
+   position:static;
+   margin-right: 50%;
+ }
+ .bottom-cloud {
+   position:static;
+   margin-left: 50%;
+ }
+ .middle-container {
+  padding: 10%;
+ }
+ .description {
+  width: 100%;
+ }
+ .skill-row {
+  width: 100%;
+ }
+ .bottom-container {
+  padding:7% 1%
+ }
 }

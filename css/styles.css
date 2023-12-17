@@ -1,9 +1,20 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
-  margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #40514E;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
 }
 
 h1 {
@@ -25,6 +36,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
   font-size: 16px;
+  margin-top: 15px;
 }
 
 h4 {
@@ -35,6 +47,19 @@ h4 {
 
 .container__heading {
   font-size: 2rem;
+}
+
+.container__header {
+  margin: 40px;
+  font-size: 2.5rem;
+}
+
+.container__sub__heading {
+  margin: 10px 0;
+}
+
+.container__head {
+  margin: 30px;
 }
 
 hr {
@@ -84,6 +109,19 @@ hr {
   width: 25%;
   float: left;
   margin-right: 1.875rem;
+}
+
+.skills__tech {
+  display: flex;
+}
+
+i {
+  margin: auto;
+  font-size: 60px;
+}
+
+.flex p {
+  margin: auto;
 }
 
 .skill2 {

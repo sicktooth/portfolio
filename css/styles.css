@@ -10,6 +10,10 @@ body {
   color: #40514E;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -29,14 +33,14 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
-  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
-  font-size: 16px;
+  font-size: 21px;
   margin-top: 15px;
+  font-weight: normal;
 }
 
 h4 {
@@ -98,7 +102,16 @@ hr {
   border-radius: 50%;
 }
 
+.project1 {
+  margin: 40px auto;
+  width: 50%;
+}
+.project1 p {
+  padding:0 50px;
+}
+
 .skill-row {
+  display: flex;
   width: 50%;
   margin: 100px auto;
   text-align: left;
@@ -107,15 +120,15 @@ hr {
 
 .skill1 {
   width: 25%;
-  float: left;
   margin-right: 1.875rem;
+  height: 50%;
 }
 
 .skills__tech {
   display: flex;
 }
 
-i {
+.flex i {
   margin: auto;
   font-size: 60px;
 }
@@ -126,7 +139,6 @@ i {
 
 .skill2 {
   width: 25%;
-  float: right;
   margin-left: 1.875rem;
 }
 
@@ -193,9 +205,7 @@ i {
   font-size: 0.75rem;
 }
 
-.footer-link,
-a {
-  text-decoration: none;
+.footer-link {
   color: #11999E;
   margin:0.625rem 1.25rem;
   font-weight: 400;

@@ -34,37 +34,112 @@
 }
 
 @media only screen and (max-width: 597px) {
-    
+    .bottom-cloud {
+        left: 81px;
+        bottom: 258px;
+    }
+    .top-container__img3 {
+        width: 90%;
+    }
+    .skill-row {
+        width: 90%;
+    }
+    .skill1 {
+        width: 22%;
+    }
+    .skill2 {
+        width: 22%;
+        height: 50%;
+    }    
+    .flex i {
+        font-size: 40px;
+    }
+    .project1 {
+        width: 90%;
+    }
+    .description {
+        width: 65%;
+    }
 }
 
-@media (max-width:480px) {
+@media only screen and (max-width:480px) {
     h1 {
-     font-size: 4rem;
-   }
-   h2 {
-     font-size: 1.7rem;
+        font-size: 4rem;
     }
-   .top-container__img3 {
-     width: 60%;
-   }
-   .top-cloud {
-     position:static;
-     margin-right: 50%;
-   }
-   .bottom-cloud {
-     position:static;
-     margin-left: 40%;
-   }
-   .middle-container {
-    padding: 5%;
-   }
-   .description {
-    width: 90%;
-   }
-   .skill-row {
-    width: 90%;
-   }
-   .bottom-container {
-    padding:7% 1%
-   }
+    h2 {
+        font-size: 2.2rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .top-cloud {
+        right: 28px;
+        top: 44px;
+    }
+    .bottom-cloud {
+        left: 28px;
+        bottom: 162px;
+    }
+    .middle-container {
+        padding: 5%;
+    }
+    .project1 p {
+        padding: 0;
+    }
+    .description {
+        width: 90%;
+    }
+    .skill-row {
+        width: 90%;
+        flex-direction: column;
+    }
+    .skill-row:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+    .skill1,
+    .skill2 {
+        width: 40%;
+        margin-bottom: 0.625rem;
+    }
+    .skills__tech {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .bottom-container {
+        padding:7% 1%
+    }
+    .footer-link {
+        margin: 0.625rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        margin-top: 33px;
+    }
+    .bottom-cloud {
+        bottom: 141px;
+    }
+    hr {
+        width: 22%;
+        margin: 70px auto;
+    }
+    .project1 {
+        margin: 60px auto;
+    }
+    .flex {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container__head {
+        margin: 21px;
+    }    
+    .bottom-cloud {
+        bottom: 107px;
+    }
+    .footer-link {
+        margin: 0.625rem;
+    }
 }

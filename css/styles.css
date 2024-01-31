@@ -97,7 +97,7 @@ hr {
   padding: 4.6875rem 0;
 }
 
-.profile img {
+#profile img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -164,6 +164,67 @@ hr {
   margin-left: 1.875rem;
 }
 
+.cert-row {
+  display: flex;
+  gap: 2.5rem;
+  margin: 3.125rem auto;
+  width: 50%;
+}
+
+.cert1 {
+  width: 100%;
+}
+
+.cert1 h3 {
+  display: none;
+}
+
+.cert1:hover h3 {
+  display: block;
+}
+
+.cert1:hover {
+  scale: 1.05;
+}
+
+.cert_1, .cert_2, .cert_3, .cert_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cert_1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.151)), url("../images/Responsive-web-design-cert.webp");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cert_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.151)), url("../images/CSS-cert.webp");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cert_3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.151)), url("../images/HTML-cert.webp");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cert_4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.151)), url("../images/Coding-for-marketers-cert.webp");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .description {
   width: 35%;
   line-height: 2;
@@ -216,12 +277,12 @@ hr {
    text-decoration: none;
 }
 
-.bottom-container {
+#bottom-container {
   background-color: #66BFBF;
   padding: 3.125rem 1.25rem;
 }
 
-.bottom-container p {
+#bottom-container p {
   color: #EAF6F6;
   padding: 1.25rem 0;
   font-size: 0.75rem;

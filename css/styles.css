@@ -164,6 +164,10 @@ hr {
   margin-left: 1.875rem;
 }
 
+.cert-heading {
+  margin: 70px 0;
+}
+
 .cert-row {
   display: flex;
   gap: 2.5rem;
@@ -178,7 +182,7 @@ hr {
 
 .cert1 h3 {
   display: none;
-  color: #000000;
+  color: #fff;
 }
 
 .cert1:hover h3 {
@@ -193,7 +197,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 50vw; */
   height: 40vh;
   background-position: center;
   background-size: cover;
@@ -204,28 +207,28 @@ hr {
   background-image: url("../images/Responsive-web-design-cert.webp");
 }
 .cert_1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055)), url("../images/Responsive-web-design-cert.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Responsive-web-design-cert.webp");
 }
 
 .cert_2 {
   background-image: url("../images/CSS-cert.webp");
 }
 .cert_2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055)), url("../images/CSS-cert.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/CSS-cert.webp");
 }
 
 .cert_3 {
   background-image: url("../images/HTML-cert.webp");
 }
 .cert_3:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055)), url("../images/HTML-cert.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/HTML-cert.webp");
 }
 
 .cert_4 {
   background-image: url("../images/Coding-for-marketers-cert.webp");
 }
 .cert_4:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055)), url("../images/Coding-for-marketers-cert.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Coding-for-marketers-cert.webp");
 }
 
 .description {

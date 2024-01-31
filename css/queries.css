@@ -18,11 +18,14 @@
     .flex i {
         font-size: 55px;
     }
+    .project1 {
+        margin: 80px auto;
+        width: 70%;
+    }
     .skill-row {
         width: 75%;
     }
-    .project1 {
-        margin: 80px auto;
+    .cert-row {
         width: 70%;
     }
     hr {
@@ -50,7 +53,10 @@
     .skill2 {
         width: 22%;
         height: 50%;
-    }    
+    }  
+    .cert-row {
+        width: 90%;
+    }  
     .flex i {
         font-size: 40px;
     }
@@ -105,6 +111,13 @@
         flex-wrap: wrap;
         gap: 10px;
     }
+    .cert-row {
+        flex-wrap: wrap;
+    }
+    .cert_1, .cert_2, .cert_3, .cert_4 {
+        height: 31vh;
+        background-size: contain;
+    }
     #bottom-container {
         padding:7% 1%
     }
@@ -130,6 +143,10 @@
     .flex {
         margin-right: 15px;
     }
+    /* .cert_1, .cert_2, .cert_3, .cert_4 {
+        background-size: contain;
+        height: 31vh;
+    } */
 }
 
 @media only screen and (max-width: 320px) {

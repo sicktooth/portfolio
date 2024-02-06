@@ -1,5 +1,10 @@
 var myName = ("Samuel");
 var yourName = prompt ("What is your name?");
+if (yourName == "" || yourName == null) {
+    yourName = "friend";
+} else {
+    yourName = yourName;
+}
 var CapFName = yourName.slice(0,1);
 CapFName = CapFName.toUpperCase();
 var RestName = yourName.slice(1, yourName.length);

@@ -1,7 +1,7 @@
 var myName = ("Samuel");
 var yourName = prompt ("What is your name?");
 if (yourName == "" || yourName == null) {
-    yourName = "friend";
+    yourName = "Friend";
 } else {
     yourName = yourName;
 }
